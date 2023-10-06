@@ -1,6 +1,7 @@
 #top
 {
   background-color: blue;
+  height: 20vh;
 }
 
 #main
@@ -11,9 +12,10 @@
   text-align: center;
 
   width: 70%;
-  height: 80%;
+  height: 80vh;
 
-  margin-right: 4%;
+  padding-left: 2%;
+  padding-right: 2%;
 
   display: inline-block;
 }
@@ -21,13 +23,12 @@
 #side
 {
   background-color: orangered;
-
   align-items: center;
+  text-align: center;
+
 
   width: 25%;
-  height: 80%;
-
-  margin: 0;
+  height: 80vh;
 
   display: inline-block;
 }
@@ -37,4 +38,9 @@
   flex-grow:1;
   height: 1px;
   background-color: #9f9f9f;
+}
+
+body
+{
+  background-color: peachpuff;
 }
