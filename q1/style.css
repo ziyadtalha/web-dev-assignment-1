@@ -1,6 +1,7 @@
 h1
 {
-
+  padding-left: 5%;
+  color: orangered;
 }
 
 body
@@ -19,27 +20,23 @@ body
   display: flex;
 }
 
-.top
-{
-  background-color: blue;
-  height: 20%;
-  margin: 0;
-}
-
 .top-content
 {
-  font-size: 4rem;
-  margin-left: 5%;
-  padding-bottom: 5%;
-  color:orangered;
-  display: inline-block;
+  background-color: blue;
+
+  width: 80%;
+  height: 20vh;
+
+  padding: 5% 5% 5% 0%;
 }
 
 .image
 {
-  display: inline-block;
-  margin-left: 65%;
-  margin-top: 5%;
+  background-color: blue;
+
+  padding-top: 5%;
+  padding-right: 5%;
+  margin: 0;
 }
 
 .main
