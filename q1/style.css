@@ -1,46 +1,88 @@
-#top
+h1
 {
-  background-color: blue;
-  height: 20vh;
-}
 
-#main
-{
-  background-color: white;
-
-  align-items: center;
-  text-align: center;
-
-  width: 70%;
-  height: 80vh;
-
-  padding-left: 2%;
-  padding-right: 2%;
-
-  display: inline-block;
-}
-
-#side
-{
-  background-color: orangered;
-  align-items: center;
-  text-align: center;
-
-
-  width: 25%;
-  height: 80vh;
-
-  display: inline-block;
-}
-
-.divider
-{
-  flex-grow:1;
-  height: 1px;
-  background-color: #9f9f9f;
 }
 
 body
 {
   background-color: peachpuff;
+}
+
+.blueText
+{
+  color: blue;
+  text-decoration: solid;
+}
+
+.flex-container
+{
+  display: flex;
+}
+
+.top
+{
+  background-color: blue;
+  height: 20%;
+  margin: 0;
+}
+
+.top-content
+{
+  font-size: 4rem;
+  margin-left: 5%;
+  padding-bottom: 5%;
+  color:orangered;
+  display: inline-block;
+}
+
+.image
+{
+  display: inline-block;
+  margin-left: 65%;
+  margin-top: 5%;
+}
+
+.main
+{
+  background-color: white;
+
+  align-items: center;
+
+  width: 70%;
+  height: 80vh;
+
+  padding: 5% 5% 5% 0%;
+
+}
+
+
+#main-content
+{
+  padding: 5%;
+}
+
+.divider
+{
+  background-color: orangered;
+  height: 2px;
+  margin-left: 5%;
+  flex-grow:1;
+}
+
+
+
+.side
+{
+  background-color: orangered;
+  align-items: center;
+
+  width: 25%;
+  height: 80vh;
+
+  padding: 5% 5% 5% 0%;
+}
+
+#side-content
+{
+  padding: 5%;
 }
