@@ -1,0 +1,40 @@
+#top
+{
+  background-color: blue;
+}
+
+#main
+{
+  background-color: white;
+
+  align-items: center;
+  text-align: center;
+
+  width: 70%;
+  height: 80%;
+
+  margin-right: 4%;
+
+  display: inline-block;
+}
+
+#side
+{
+  background-color: orangered;
+
+  align-items: center;
+
+  width: 25%;
+  height: 80%;
+
+  margin: 0;
+
+  display: inline-block;
+}
+
+.divider
+{
+  flex-grow:1;
+  height: 1px;
+  background-color: #9f9f9f;
+}
