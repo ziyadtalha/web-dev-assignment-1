@@ -2,15 +2,14 @@
   width: 200px;
 }
 
+h1 {
+  margin: auto;
+  font-size: 4rem;
+}
+
 body {
   background-color: whitesmoke;
   font-family: "Open Sans", sans-serif;
-}
-
-nav {
-  font-size: 0.84rem;
-  font-weight: 700;
-  background-color: #f4f5f6;
 }
 
 .vr {
