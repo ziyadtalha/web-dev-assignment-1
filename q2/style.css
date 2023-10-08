@@ -1,0 +1,53 @@
+#logo {
+  width: 200px;
+}
+
+body {
+  background-color: #f4f6f4;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  font-size: 0.84rem;
+  font-weight: 700;
+  background-color: #f4f5f6;
+}
+
+#logo {
+  width: 200px;
+}
+
+#searchBtn {
+  font-size: 0.84rem;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.vr {
+  color: rgba(0, 0, 0, 0.545);
+}
+
+
+#separator {
+  height: 35px;
+  background-color: white;
+}
+
+.bluePartOfDrop{
+
+}
+.bluePartOfDrop:hover
+{
+  color: rgb(52, 168, 202);
+}
+
+.alwaysBlue
+{
+  color: rgb(52, 168, 202);
+}
+
+.subtext
+{
+  font-size: 0.75rem;
+  color: gray;
+}
