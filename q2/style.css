@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #f4f6f4;
+  background-color: whitesmoke;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -13,29 +13,16 @@ nav {
   background-color: #f4f5f6;
 }
 
-#logo {
-  width: 200px;
-}
-
-#searchBtn {
-  font-size: 0.84rem;
-  font-weight: 700;
-  border-radius: 3px;
-}
-
 .vr {
   color: rgba(0, 0, 0, 0.545);
 }
-
 
 #separator {
   height: 35px;
   background-color: white;
 }
 
-.bluePartOfDrop{
-
-}
+.bluePartOfDrop{}
 .bluePartOfDrop:hover
 {
   color: rgb(52, 168, 202);
