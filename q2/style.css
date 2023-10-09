@@ -5,11 +5,21 @@
 h1 {
   margin: auto;
   font-size: 4rem;
+  font-weight: bold;
+  font-family: "Monaco", monospace;
 }
 
 body {
   background-color: whitesmoke;
-  font-family: "Open Sans", sans-serif;
+}
+
+.nav-link:hover
+{
+  color: rgb(255, 115, 0);}
+
+#freelancer
+{
+  color: rgb(255, 115, 0);
 }
 
 .vr {
