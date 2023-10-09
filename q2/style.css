@@ -1,9 +1,6 @@
-#logo {
-  width: 200px;
-}
+/* GLOBAL: */
 
 h1 {
-  margin: auto;
   font-size: 4rem;
   font-weight: bold;
   font-family: "Monaco", monospace;
@@ -13,25 +10,14 @@ body {
   background-color: whitesmoke;
 }
 
-.nav-link:hover
-{
-  color: rgb(255, 115, 0);}
 
-#freelancer
-{
-  color: rgb(255, 115, 0);
+/* NAV BAR: */
+
+#logo {
+  width: 200px;
 }
 
-.vr {
-  color: rgba(0, 0, 0, 0.545);
-}
 
-#separator {
-  height: 35px;
-  background-color: white;
-}
-
-.bluePartOfDrop{}
 .bluePartOfDrop:hover
 {
   color: rgb(52, 168, 202);
@@ -47,6 +33,29 @@ body {
   font-size: 0.75rem;
   color: gray;
 }
+
+
+.vr {
+  color: rgba(0, 0, 0, 0.545);
+}
+
+#separator {
+  height: 35px;
+  background-color: white;
+}
+
+.nav-link:hover
+{
+  color: rgb(255, 115, 0);}
+
+#freelancer
+{
+  color: rgb(255, 115, 0);
+}
+
+
+
+/* Main Text and Carousal: */
 
 /* When screen size is less than 800px, the following properties will be applied */
 @media only screen and (max-width: 800px) {
