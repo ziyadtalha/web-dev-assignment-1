@@ -47,3 +47,21 @@ body {
   font-size: 0.75rem;
   color: gray;
 }
+
+/* When screen size is less than 800px, the following properties will be applied */
+@media only screen and (max-width: 800px) {
+
+  /* This is to pile the columns in a row on top of each other in vertical lay out */
+  .container {
+    flex-direction : column;
+  }
+
+  #mainText
+  {
+    order: 2;
+  }
+  #carousal
+  {
+    order: 1;
+  }
+}
