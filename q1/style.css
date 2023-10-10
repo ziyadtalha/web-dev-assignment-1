@@ -18,12 +18,14 @@ a
 
 img {
   border: 5px solid #555;
+  border-radius: 50%;
 }
 
 .blueText
 {
   color: blue;
   text-decoration: solid;
+  font-size: 1.5rem;
 }
 
 .flex-container
